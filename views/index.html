@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Document</title>
+    <title>Login Page</title>
 </head>
 
 <body>
     <div class="login hide-login">
-        <form class="login-container hide-form" method="POST" action="login">
+        <form class="login-container hide-form" action="login" method="POST" autocomplete="off">
             <img src="./img/user.png" alt="" />
             <div class="input-container hide-section">
                 <p><input type="email" placeholder="Email" name="email" /></p>
                 <p><input type="password" placeholder="Password" name="password" /></p>
-                <p><input type="button" value="Log in" /></p>
+                <input type="submit" value="Log in" />
             </div>
         </form>
     </div>
